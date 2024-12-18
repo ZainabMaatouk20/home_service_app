@@ -28,62 +28,80 @@ $description
   }
 }
 
-// List of service providers
+// List of service providers in Lebanon
+
 List<ServiceProvider> providers = [
+  // Individuals (isIndividual: true)
   ServiceProvider(
-    name: 'EEE EEE',
+    name: 'John Haddad',
     profession: 'Plumber',
-    description: 'Best plumber service in Nabatieh',
-    phone: '07122333',
+    description: 'Freelance plumber offering quick fixes and installations.',
+    phone: '+961 71 223344',
     isIndividual: true,
   ),
+  ServiceProvider(
+    name: 'Ali Mansour',
+    profession: 'Electrician',
+    description: 'Certified electrician specializing in residential repairs.',
+    phone: '+961 76 334455',
+    isIndividual: true,
+  ),
+  ServiceProvider(
+    name: 'Karim Woodworks',
+    profession: 'Carpenter',
+    description: 'Custom wood furniture and repairs for homes.',
+    phone: '+961 70 112233',
+    isIndividual: true,
+  ),
+  ServiceProvider(
+    name: 'George Mikhael',
+    profession: 'Plumber',
+    description: 'Experienced plumber handling leak repairs and pipe installations.',
+    phone: '+961 78 445566',
+    isIndividual: true,
+  ),
+  ServiceProvider(
+    name: 'Hussein Fawaz',
+    profession: 'Carpenter',
+    description: 'Handcrafted wood designs and home renovations.',
+    phone: '+961 71 556677',
+    isIndividual: true,
+  ),
+
+  // Companies (isIndividual: false)
   ServiceProvider(
     name: 'FixIt Plumbing Co.',
     profession: 'Plumber',
-    description: 'Commercial plumbing specialists',
-    phone: '03122334',
+    description: 'Leading plumbing company for commercial and industrial needs.',
+    phone: '+961 1 334455',
     isIndividual: false,
   ),
   ServiceProvider(
-    name: 'AAA Electricians',
+    name: 'ElectroFix Lebanon',
     profession: 'Electrician',
-    description: 'Certified electrician services',
-    phone: '07122335',
-    isIndividual: true,
-  ),
-  ServiceProvider(
-    name: 'BBB BBB',
-    profession: 'Electrician',
-    description: 'Electrical solutions for homes and offices',
-    phone: '08122336',
-    isIndividual: true,
-  ),
-  ServiceProvider(
-    name: 'DDD DDD',
-    profession: 'Electrician',
-    description: 'Reliable electrical repairs',
-    phone: '09122337',
-    isIndividual: true,
-  ),
-  ServiceProvider(
-    name: 'HHH HHH',
-    profession: 'Electrician',
-    description: 'Industrial electrical maintenance',
-    phone: '06122338',
+    description: 'Professional electrical services for homes and businesses.',
+    phone: '+961 1 445566',
     isIndividual: false,
   ),
   ServiceProvider(
-    name: 'Craft Carpentry',
+    name: 'Crafted Carpentry SARL',
     profession: 'Carpenter',
-    description: 'Custom woodwork solutions',
-    phone: '05122339',
+    description: 'Specialized in custom wood furniture and interior design.',
+    phone: '+961 4 556677',
     isIndividual: false,
   ),
   ServiceProvider(
-    name: 'WoodFix',
+    name: 'Saccal Enterprises SAL',
+    profession: 'Electrician',
+    description: 'Electromechanical services and power solutions.',
+    phone: '+961 1 667788',
+    isIndividual: false,
+  ),
+  ServiceProvider(
+    name: 'WoodMasters Ltd.',
     profession: 'Carpenter',
-    description: 'Best carpentry service in Beirut',
-    phone: '02122340',
-    isIndividual: true,
+    description: 'Providing premium woodworks for homes and offices.',
+    phone: '+961 5 778899',
+    isIndividual: false,
   ),
 ];
