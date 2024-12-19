@@ -47,7 +47,20 @@ The app code is organized into the following files within the `lib` folder:
 
 ---
 
-## How to Run the App
+## **Credits**
+- Zainab Ibrahim Maatouk
+- LIU Nabatieh
+- Email: 42320001@students.liu.edu.lb
+- Assesment1v2 Dr. Marwan Cheaito
+- Course: CSCI410
+
+---
+
+## **Getting Started**
+### **1. Prerequisites**
+- Install Flutter: [Flutter Installation Guide](https://flutter.dev/docs/get-started/install)
+- Ensure you have an emulator or a physical device connected
+### **2. How to Run the App**
 1. Clone the repository:
    ```bash
    git clone https://github.com/ZainabMaatouk20/home_service_app.git
