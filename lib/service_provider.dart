@@ -83,11 +83,11 @@ List<ServiceProvider> providers = [
     phone: '+961 1 445566',
     isIndividual: false,
   ),
-  ServiceProvider(
-    name: 'Crafted Carpentry SARL',
+ ServiceProvider(
+    name: 'Maatouk WOOD ',
     profession: 'Carpenter',
-    description: 'Specialized in custom wood furniture and interior design.',
-    phone: '+961 4 556677',
+    description: 'All types of wood and detailing of all types of lamica panels.',
+    phone: '+961 78 815474',
     isIndividual: false,
   ),
   ServiceProvider(
